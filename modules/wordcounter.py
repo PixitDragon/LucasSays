@@ -1,0 +1,1 @@
+#take user input from main and compare it aginst known words return mismatches if not mismatches pass list to file handler to compose audio output

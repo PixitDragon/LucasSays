@@ -1,0 +1,1 @@
+#gather user input and return files / errors for missing words / also handle future setings logic (skip unkwnow words instead of error ect)
