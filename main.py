@@ -35,7 +35,7 @@ def userInput():
     print('What do you want lucas to say')
     userText = input()
     userInput = userText.split()
-    processAudio(userInput,wordList)
+    exportFile(processAudio(userInput,wordList))
 
 def processText(userInput, wordList):
     for x in userInput:
@@ -55,8 +55,9 @@ def processAudio(userInput,wordList):
 
 def exportFile(soundOutput):
     script_dir = str(Path(__file__).parent)
+    print("got here")
 
-    outputPath=script_dir+"outputs/"+"lucasOutput3.mp3"
+    outputPath=script_dir+"/outputs/"+"lucasOutput4.mp3"
     soundOutput.export(outputPath, format="mp3")
 
 userInput()
