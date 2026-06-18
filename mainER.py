@@ -6,6 +6,7 @@ from pydub.playback import play
 def userInput():
     print('What do you want lucas to say')
     userText = input()
+    userText = userText.lower()
     userInput = userText.split()
     return(userInput)
 
