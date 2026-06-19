@@ -9,7 +9,7 @@ def userInput():
     userText = userText.lower()
     userInput = userText.split()
     return(userInput)
-
+ 
 def getWordPath(word):
     basepath = str(Path(__file__).parent)
     folderPath = basepath + "/LucasSounds/"
