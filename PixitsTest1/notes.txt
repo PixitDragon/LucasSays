@@ -2,3 +2,5 @@ Suggested:
 - Use either pydub or pygame 
     - Pydub: lets script run while sound playing, but have to add sleep so script doesn't end early 
     - pygame: Lets you modify audio files 
+
+so let's started bumbumbumbum alright applaud as art found i'm internaly reasonable horses man so2 necessary there's television well uhhh yeah
